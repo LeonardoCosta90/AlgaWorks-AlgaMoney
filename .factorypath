@@ -70,4 +70,5 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/org/bouncycastle/bcprov-jdk15on/1.55/bcprov-jdk15on-1.55.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/boot/spring-boot-configuration-processor/1.5.3.RELEASE/spring-boot-configuration-processor-1.5.3.RELEASE.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="EXTJAR" id="C:\Users\Pichau\.m2\repository\org\hibernate\hibernate-jpamodelgen\5.0.12.Final\hibernate-jpamodelgen-5.0.12.Final.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>
