@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   ultimoId = 0;
-  nome = 'Leonardo Costa';
+  nome = 'Thiago';
   adicionado = false;
   funcionarios = [];
 
