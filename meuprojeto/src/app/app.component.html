@@ -5,12 +5,10 @@
   
   <div class="form-group">
       <label>Nome</label>
-      <input type="text" class="form-control" 
-          (input)="alterarNome($event)"
-          value="{{nome}}">
+      <input type="text" class="form-control" #nomeInput>
   </div>
 
   <button type="button" class="btn btn-primary" 
-      (click)="adicionar()">Adicionar</button>
+      (click)="adicionar(nomeInput.value)">Adicionar</button>
 
 </div>
