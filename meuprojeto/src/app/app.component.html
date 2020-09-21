@@ -1,12 +1,5 @@
 <div class="container">
-    <!--
-  <div class="alert alert-success" role="alert" *ngIf="adicionado">
-        Funcionário adicionado: <strong>{{nome}}</strong>
-    </div>
-    -->
-  
-
-    <div class="alert alert-success" role="alert" [hidden]="!adicionado">
+    <div class="alert alert-success" role="alert" *ngIf="adicionado">
         Funcionário adicionado: <strong>{{nome}}</strong>
     </div>
     
@@ -18,5 +11,16 @@
 
     <button type="button" class="btn btn-primary" 
         (click)="adicionar()" [disabled]="nome.length == 0">Adicionar</button>
+
+    <div class="row" style="margin-top: 20px">
+        
+        <div class="col-2" *ngFor="let funcionario of funcionarios">
+            <div class="card">
+                <img class="card-img-top" src="https://randomuser.me/api/portraits/men/{{funcionario.id}}.jpg">
+                <div class="card-block">{{funcionario.nome}}</div>
+            </div>
+        </div>
+
+    </div>
 
 </div>
