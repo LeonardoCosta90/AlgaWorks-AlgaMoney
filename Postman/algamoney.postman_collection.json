@@ -13,12 +13,12 @@
 					"basic": [
 						{
 							"key": "password",
-							"value": "@ngul@r0",
+							"value": "admin",
 							"type": "string"
 						},
 						{
 							"key": "username",
-							"value": "angular",
+							"value": "admin@algamoney.com",
 							"type": "string"
 						}
 					]
@@ -38,12 +38,14 @@
 						{
 							"key": "username",
 							"value": "maria@algamoney.com",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "password",
 							"value": "maria",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "grant_type",
@@ -117,12 +119,14 @@
 						{
 							"key": "username",
 							"value": "maria@algamoney.com",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "password",
 							"value": "maria",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "grant_type",
@@ -150,11 +154,13 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/oauth/token",
+					"raw": "https://algamoney-api-leonardo.herokuapp.com/oauth/token",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"algamoney-api-leonardo",
+						"herokuapp",
+						"com"
 					],
-					"port": "8080",
 					"path": [
 						"oauth",
 						"token"
@@ -165,6 +171,31 @@
 		},
 		{
 			"name": "Filtrar Lançamento",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW5AYWxnYW1vbmV5LmNvbTphZG1pbg==",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/lancamentos/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lancamentos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filtrar Lançamento Copy",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -204,16 +235,18 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1OTk5NTQ2MzMsInVzZXJfbmFtZSI6ImFkbWluIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9ST0xFIl0sImp0aSI6IjVhNjFhZjAwLTg3OGUtNGI1Mi1iNmUzLTFkNTY5NzJlNzFlNSIsImNsaWVudF9pZCI6ImFuZ3VsYXIiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0._xS7uiycK5vgrxhhelf61kWYePwE76MOLGiqSjIngxQ",
-						"type": "text"
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDAzOTE4NzYsInVzZXJfbmFtZSI6Im1hcmlhQGFsZ2Ftb25leS5jb20iLCJhdXRob3JpdGllcyI6WyJST0xFX1BFU1FVSVNBUl9MQU5DQU1FTlRPIiwiUk9MRV9QRVNRVUlTQVJfQ0FURUdPUklBIiwiUk9MRV9QRVNRVUlTQVJfUEVTU09BIl0sImp0aSI6ImI1MmExZTE3LTQxMmUtNGQ4ZC1iZjkxLWNkM2VjZmM1YjUxZiIsImNsaWVudF9pZCI6ImFuZ3VsYXIiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.lMQOVdOXJqh7Hgtrs34wZhQS21WOfItEs7sDSpC0J5U"
 					}
 				],
 				"url": {
-					"raw": "localhost:8080/lancamentos?size=3&page=2",
+					"raw": "https://algamoney-api-leonardo.herokuapp.com/lancamentos?size=3&page=2",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"algamoney-api-leonardo",
+						"herokuapp",
+						"com"
 					],
-					"port": "8080",
 					"path": [
 						"lancamentos"
 					],
@@ -235,33 +268,54 @@
 			"name": "Novo acess tokem com refresh token",
 			"request": {
 				"auth": {
-					"type": "basic",
-					"basic": [
-						{
-							"key": "password",
-							"value": "@ngular0",
-							"type": "string"
-						},
-						{
-							"key": "username",
-							"value": "angular",
-							"type": "string"
-						}
-					]
+					"type": "noauth"
 				},
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW5AYWxnYW1vbmV5LmNvbTphZG1pbg==",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "urlencoded",
 					"urlencoded": [
 						{
 							"key": "grant_type",
 							"value": "refresh_token",
-							"type": "text"
+							"type": "text",
+							"disabled": true
 						},
 						{
 							"key": "refresh_token",
 							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJhdGkiOiI1YTYxYWYwMC04NzhlLTRiNTItYjZlMy0xZDU2OTcyZTcxZTUiLCJleHAiOjE2MDAwNDEwMTMsImF1dGhvcml0aWVzIjpbIlJPTEVfUk9MRSJdLCJqdGkiOiI5YjJjNzEwMS02ZDgwLTQ5NWEtOGNmZi1iZDhkNzkzNTliODIiLCJjbGllbnRfaWQiOiJhbmd1bGFyIn0.9pAyTTt2omDI_kfXwBVP8UHD2scX082MVpQtpkYfR1k",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "client_id",
+							"value": "angular",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "admin@algamoney.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
 							"type": "text"
 						}
 					],
@@ -270,7 +324,8 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/oauth/token",
+					"raw": "http://localhost:8080/oauth/token",
+					"protocol": "http",
 					"host": [
 						"localhost"
 					],
@@ -313,7 +368,7 @@
 						},
 						{
 							"key": "refresh_token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJhdGkiOiI1YTYxYWYwMC04NzhlLTRiNTItYjZlMy0xZDU2OTcyZTcxZTUiLCJleHAiOjE2MDAwNDEwMTMsImF1dGhvcml0aWVzIjpbIlJPTEVfUk9MRSJdLCJqdGkiOiI5YjJjNzEwMS02ZDgwLTQ5NWEtOGNmZi1iZDhkNzkzNTliODIiLCJjbGllbnRfaWQiOiJhbmd1bGFyIn0.9pAyTTt2omDI_kfXwBVP8UHD2scX082MVpQtpkYfR1k",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDAzODg2MzksInVzZXJfbmFtZSI6Im1hcmlhQGFsZ2Ftb25leS5jb20iLCJhdXRob3JpdGllcyI6WyJST0xFX1BFU1FVSVNBUl9MQU5DQU1FTlRPIiwiUk9MRV9QRVNRVUlTQVJfQ0FURUdPUklBIiwiUk9MRV9QRVNRVUlTQVJfUEVTU09BIl0sImp0aSI6IjZjM2YzYzExLTFjZDEtNDFhYi1iYzAzLTMyMTAyZmRiNzNjMyIsImNsaWVudF9pZCI6ImFuZ3VsYXIiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.uV7U-YuRUCjSOVda7FsU81x8e5V4Kl8mDdIfnx54ZvM",
 							"type": "text"
 						}
 					],
@@ -322,11 +377,13 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8080/oauth/token",
+					"raw": "https://algamoney-api-leonardo.herokuapp.com/oauth/token",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"algamoney-api-leonardo",
+						"herokuapp",
+						"com"
 					],
-					"port": "8080",
 					"path": [
 						"oauth",
 						"token"
@@ -338,10 +395,77 @@
 		{
 			"name": "Lista Gategoria",
 			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin@algamoney.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbkBhbGdhbW9uZXkuY29tIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sIm5vbWUiOiJBZG1pbmlzdHJhZG9yIiwiZXhwIjoxNjAwNjQyNTgyLCJhdXRob3JpdGllcyI6WyJST0xFX0NBREFTVFJBUl9DQVRFR09SSUEiLCJST0xFX1BFU1FVSVNBUl9QRVNTT0EiLCJST0xFX1JFTU9WRVJfUEVTU09BIiwiUk9MRV9DQURBU1RSQVJfTEFOQ0FNRU5UTyIsIlJPTEVfUEVTUVVJU0FSX0xBTkNBTUVOVE8iLCJST0xFX1JFTU9WRVJfTEFOQ0FNRU5UTyIsIlJPTEVfQ0FEQVNUUkFSX1BFU1NPQSIsIlJPTEVfUEVTUVVJU0FSX0NBVEVHT1JJQSJdLCJqdGkiOiJhY2YyZWE4OC0xNzNiLTQ3MTItODhmMi01YTRkZGNmMjlhMzIiLCJjbGllbnRfaWQiOiJhbmd1bGFyIn0.EUilWMDI92KQgS3dpu3DUNtNcY_-YnXBoyGQjLyJKF0",
+						"type": "text"
+					}
+				],
 				"url": {
-					"raw": ""
+					"raw": "localhost:8080/categorias",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"categorias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista Pessoa",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin@algamoney.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbkBhbGdhbW9uZXkuY29tIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sIm5vbWUiOiJBZG1pbmlzdHJhZG9yIiwiZXhwIjoxNjAwNjQyNTgyLCJhdXRob3JpdGllcyI6WyJST0xFX0NBREFTVFJBUl9DQVRFR09SSUEiLCJST0xFX1BFU1FVSVNBUl9QRVNTT0EiLCJST0xFX1JFTU9WRVJfUEVTU09BIiwiUk9MRV9DQURBU1RSQVJfTEFOQ0FNRU5UTyIsIlJPTEVfUEVTUVVJU0FSX0xBTkNBTUVOVE8iLCJST0xFX1JFTU9WRVJfTEFOQ0FNRU5UTyIsIlJPTEVfQ0FEQVNUUkFSX1BFU1NPQSIsIlJPTEVfUEVTUVVJU0FSX0NBVEVHT1JJQSJdLCJqdGkiOiJhY2YyZWE4OC0xNzNiLTQ3MTItODhmMi01YTRkZGNmMjlhMzIiLCJjbGllbnRfaWQiOiJhbmd1bGFyIn0.EUilWMDI92KQgS3dpu3DUNtNcY_-YnXBoyGQjLyJKF0"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/pessoas",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pessoas"
+					]
 				}
 			},
 			"response": []
@@ -406,6 +530,36 @@
 			"response": []
 		},
 		{
+			"name": "Excluir Pessoa",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Basic YWRtaW5AYWxnYW1vbmV5LmNvbTphZG1pbg=="
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/pessoas/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pessoas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Resumo Laçamento",
 			"request": {
 				"method": "GET",
@@ -417,12 +571,12 @@
 					},
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDAzODcxNjQsInVzZXJfbmFtZSI6Im1hcmlhQGFsZ2Ftb25leS5jb20iLCJhdXRob3JpdGllcyI6WyJST0xFX1BFU1FVSVNBUl9MQU5DQU1FTlRPIiwiUk9MRV9QRVNRVUlTQVJfQ0FURUdPUklBIiwiUk9MRV9QRVNRVUlTQVJfUEVTU09BIl0sImp0aSI6IjAwYmQ4YzZjLTY1YmEtNDBmZC04YTkxLTU2OWUzZDI5NDM5ZCIsImNsaWVudF9pZCI6ImFuZ3VsYXIiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.Y-NVJ7RVNMe9KOZNyEhg22B5GS97Y9Ufkk43F4GWzvQ",
+						"value": "Basic YWRtaW5AYWxnYW1vbmV5LmNvbTphZG1pbg==",
 						"type": "text"
 					}
 				],
 				"url": {
-					"raw": "localhost:8080/lancamentos?resumo&descricao=Salário",
+					"raw": "localhost:8080/lancamentos?resumo&descricao=Salário&dataVencimentoDe=2017-04-01&dataVecimentoAte=2017-04-30",
 					"host": [
 						"localhost"
 					],
@@ -438,7 +592,120 @@
 						{
 							"key": "descricao",
 							"value": "Salário"
+						},
+						{
+							"key": "dataVencimentoDe",
+							"value": "2017-04-01"
+						},
+						{
+							"key": "dataVecimentoAte",
+							"value": "2017-04-30"
 						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pessoa por nome",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin@algamoney.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDAzODcxNjQsInVzZXJfbmFtZSI6Im1hcmlhQGFsZ2Ftb25leS5jb20iLCJhdXRob3JpdGllcyI6WyJST0xFX1BFU1FVSVNBUl9MQU5DQU1FTlRPIiwiUk9MRV9QRVNRVUlTQVJfQ0FURUdPUklBIiwiUk9MRV9QRVNRVUlTQVJfUEVTU09BIl0sImp0aSI6IjAwYmQ4YzZjLTY1YmEtNDBmZC04YTkxLTU2OWUzZDI5NDM5ZCIsImNsaWVudF9pZCI6ImFuZ3VsYXIiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXX0.Y-NVJ7RVNMe9KOZNyEhg22B5GS97Y9Ufkk43F4GWzvQ"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/pessoas?nome=rafaela",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pessoas"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "rafaela"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recuperar Pessoa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin@algamoney.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Basic YWRtaW5AYWxnYW1vbmV5LmNvbTphZG1pbg=="
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "false",
+					"options": {
+						"raw": {}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/pessoas/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pessoas",
+						"1"
 					]
 				}
 			},
