@@ -27,6 +27,7 @@ com\example\algamoney\api\event\listener\RecursoCriadoListener.class
 com\example\algamoney\api\repository\PessoaRepository.class
 com\example\algamoney\api\model\Lancamento_.class
 com\example\algamoney\api\resource\CategoriaResource.class
+com\example\algamoney\api\dto\LancamentoEstatisticaPessoa.class
 com\example\algamoney\api\event\RecursoCriadoEvent.class
 com\example\algamoney\api\repository\LancamentoRepository.class
 com\example\algamoney\api\service\LancamentoService.class

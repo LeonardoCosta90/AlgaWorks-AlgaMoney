@@ -18,6 +18,7 @@ C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\model\Endereco_.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\repository\PessoaRepository.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\security\util\GeradorSenha.java
+C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\dto\LancamentoEstatisticaPessoa.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\event\RecursoCriadoEvent.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\repository\projection\ResumoLancamento.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\model\Permissao.java
