@@ -12,6 +12,7 @@ C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\model\Pessoa_.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\repository\filter\LancamentoFilter.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\config\BasicSecurityConfig.java
+C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\dto\LancamentoEstatisticaDia.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\service\exception\PessoaInexistenteOuInativaException.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\config\ResourceServerConfig.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\model\Endereco_.java
@@ -32,6 +33,7 @@ C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\token\RefreshTokenPostProcessor.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\service\LancamentoService.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\resource\LancamentoResource.java
+C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\dto\LancamentoEstatisticaCategoria.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\exceptionhandler\AlgamoneyExceptionHandler.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\model\Permissao_.java
 C:\Users\Pichau\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\algamoney-api\src\main\java\com\example\algamoney\api\resource\CategoriaResource.java

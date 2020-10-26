@@ -35,7 +35,9 @@ com\example\algamoney\api\model\Endereco.class
 com\example\algamoney\api\model\Pessoa.class
 com\example\algamoney\api\model\Permissao_.class
 com\example\algamoney\api\exceptionhandler\AlgamoneyExceptionHandler.class
+com\example\algamoney\api\dto\LancamentoEstatisticaCategoria.class
 com\example\algamoney\api\model\Categoria_.class
+com\example\algamoney\api\dto\LancamentoEstatisticaDia.class
 com\example\algamoney\api\service\PessoaService.class
 com\example\algamoney\api\security\AppUserDetailsService.class
 com\example\algamoney\api\security\UsuarioSistema.class
