@@ -1,4 +1,4 @@
-REATE TABLE lancamento (
+CREATE TABLE lancamento (
 	codigo BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
 	descricao VARCHAR(50) NOT NULL,
 	data_vencimento DATE NOT NULL,
@@ -25,5 +25,5 @@ INSERT INTO lancamento (descricao, data_vencimento, data_pagamento, valor, obser
 INSERT INTO lancamento (descricao, data_vencimento, data_pagamento, valor, observacao, tipo, codigo_categoria, codigo_pessoa) values ('Padaria', '2020-02-28', '2020-02-28', 8.32, null, 'DESPESA', 1, 5);
 INSERT INTO lancamento (descricao, data_vencimento, data_pagamento, valor, observacao, tipo, codigo_categoria, codigo_pessoa) values ('Papelaria', '2020-02-10', '2020-04-10', 2100.32, null, 'DESPESA', 5, 4);
 INSERT INTO lancamento (descricao, data_vencimento, data_pagamento, valor, observacao, tipo, codigo_categoria, codigo_pessoa) values ('Almoço', '2020-03-09', null, 1040.32, null, 'DESPESA', 4, 3);
-INSERT INTO lancamento (descricao, data_vencimento, data_pagamento, valor, observacao, tipo, codigo_categoria, codigo_pessoa) values ('Café', '2020-02-20', '2020-02-18', 4.32, null, 'DESPESA', 4, 2);
-INSERT INTO lancamento (descricao, data_vencimento, data_pagamento, valor, observacao, tipo, codigo_categoria, codigo_pessoa) values ('Lanche', '2020-04-10', null, 10.20, null, 'DESPESA', 4, 1);
+INSERT INTO lancamento (descricao, data_vencimento, data_pagamento, valor, observacao, tipo, codigo_categoria, codigo_pessoa) values ('Café', '2020-10-20', '2020-10-20', 4.32, null, 'DESPESA', 4, 2);
+INSERT INTO lancamento (descricao, data_vencimento, data_pagamento, valor, observacao, tipo, codigo_categoria, codigo_pessoa) values ('Lanche', '2020-10-10', null, 10.20, null, 'DESPESA', 4, 1);
