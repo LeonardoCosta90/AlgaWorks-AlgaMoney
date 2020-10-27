@@ -1,5 +1,6 @@
 package com.example.algamoney.api.model;
 
+
 import java.util.List;
 
 import javax.persistence.CascadeType;
