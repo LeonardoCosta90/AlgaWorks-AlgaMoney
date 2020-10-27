@@ -1,4 +1,4 @@
-package com.example.algamoney.api.Mail;
+package com.example.algamoney.api.mail;
 
 import java.util.HashMap;
 import java.util.List;
