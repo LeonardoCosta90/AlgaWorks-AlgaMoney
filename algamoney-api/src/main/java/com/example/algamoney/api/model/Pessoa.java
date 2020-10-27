@@ -1,6 +1,5 @@
 package com.example.algamoney.api.model;
 
-
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -37,7 +36,8 @@ public class Pessoa {
 	
 	@JsonIgnoreProperties("pessoa")
 	@Valid
-	@OneToMany(mappedBy = "pessoa", cascade = CascadeType.ALL,orphanRemoval = true)
+	@OneToMany(mappedBy = "pessoa", cascade = CascadeType.ALL,
+			orphanRemoval = true)
 	private List<Contato> contatos;
 
 	public Long getCodigo() {

@@ -58,3 +58,5 @@ CREATE TABLE contato (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 insert into contato (codigo, codigo_pessoa, nome, email, telefone) values (1, 1, 'Marcos Henrique', 'marcos@algamoney.com', '00 0000-0000');
+
+ALTER TABLE lancamento ADD COLUMN anexo VARCHAR(200);
