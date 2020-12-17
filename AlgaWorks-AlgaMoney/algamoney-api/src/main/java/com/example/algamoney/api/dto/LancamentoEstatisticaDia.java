@@ -6,8 +6,8 @@ import java.time.LocalDate;
 import com.example.algamoney.api.model.TipoLancamento;
 
 public class LancamentoEstatisticaDia {
-
-private TipoLancamento tipo;
+	
+	private TipoLancamento tipo;
 	
 	private LocalDate dia;
 	

@@ -6,6 +6,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 
 import com.example.algamoney.api.model.Usuario;
+
 public class UsuarioSistema extends User {
 
 	private static final long serialVersionUID = 1L;

@@ -10,14 +10,14 @@ import com.example.algamoney.api.config.property.AlgamoneyApiProperty;
 @SpringBootApplication
 @EnableConfigurationProperties(AlgamoneyApiProperty.class)
 public class AlgamoneyApiApplication {
-
-	private static ApplicationContext APPLICATIONCONTEXT;
 	
+	private static ApplicationContext APPLICATION_CONTEXT;
+
 	public static void main(String[] args) {
-		APPLICATIONCONTEXT = SpringApplication.run(AlgamoneyApiApplication.class, args);
+		APPLICATION_CONTEXT = SpringApplication.run(AlgamoneyApiApplication.class, args);
 	}
 	
-	public static <T> T getBean(Class<T> type){
-		return APPLICATIONCONTEXT.getBean(type);
+	public static <T> T getBean(Class<T> type) {
+		return APPLICATION_CONTEXT.getBean(type);
 	}
 }

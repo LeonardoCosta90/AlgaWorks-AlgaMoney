@@ -6,7 +6,7 @@ import com.example.algamoney.api.model.Categoria;
 
 public class LancamentoEstatisticaCategoria {
 	
-private Categoria categoria;
+	private Categoria categoria;
 	
 	private BigDecimal total;
 
@@ -30,5 +30,4 @@ private Categoria categoria;
 	public void setTotal(BigDecimal total) {
 		this.total = total;
 	}
-
 }

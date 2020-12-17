@@ -54,7 +54,7 @@ public class Mailer {
 				.map(u -> u.getEmail())
 				.collect(Collectors.toList());
 		
-		this.enviarEmail("leonardoeverton.tec3@gmail.com", 
+		this.enviarEmail("testes.algaworks@gmail.com", 
 				emails, 
 				"Lançamentos vencidos", 
 				"mail/aviso-lancamentos-vencidos", 

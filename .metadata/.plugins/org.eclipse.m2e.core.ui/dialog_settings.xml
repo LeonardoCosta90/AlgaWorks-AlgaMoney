@@ -2,8 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\Leonardo\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\AlgaWorks-AlgaMoney"/>
 			<item value="C:\Users\Leonardo\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\AlgaWorks-AlgaMoney\AlgaWorks-AlgaMoney"/>
+			<item value="C:\Users\Leonardo\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\alga"/>
+			<item value="C:\Users\Leonardo\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\AlgaWorks-AlgaMoney"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
