@@ -1,0 +1,1329 @@
+!SESSION 2020-12-17 09:58:27.082 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2020-12-17 09:58:34.036
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-17 09:58:34.036
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@89465d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fdd3382,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-17 09:58:38.833
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Leonardo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:00:59.163
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:00:59.763
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:01:00.716
+!MESSAGE Could not download sources for com.lowagie:itext:2.1.7.js8
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.lowagie:itext:jar:sources:2.1.7.js8
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.lowagie:itext:jar:sources:2.1.7.js8
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:01:00.716
+!MESSAGE Could not resolve artifact com.lowagie:itext:jar:sources:2.1.7.js8
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:01:00.716
+!MESSAGE Missing com.lowagie:itext:jar:sources:2.1.7.js8
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:01:07.706
+!MESSAGE Could not download sources for com.amazonaws:aws-java-sdk:1.11.670
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.amazonaws:aws-java-sdk:jar:sources:1.11.670
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.amazonaws:aws-java-sdk:jar:sources:1.11.670
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:01:07.706
+!MESSAGE Could not resolve artifact com.amazonaws:aws-java-sdk:jar:sources:1.11.670
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:01:07.706
+!MESSAGE Missing com.amazonaws:aws-java-sdk:jar:sources:1.11.670
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:47.339
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:47.346
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3420a943[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:47.360
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:47.383
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:48.967
+!MESSAGE Boot LS startup time from start to initialized: 1595ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:49.023
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BLSvoCLvisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:49.031
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:49.040
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:49.045
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:49.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:49.056
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BLSvoCLv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:49.062
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:49.075
+!MESSAGE buffering callback sts4.classpath.BLSvoCLv algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:49.081
+!MESSAGE executing callback sts4.classpath.BLSvoCLv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:03:49.110
+!MESSAGE executing callback sts4.classpath.BLSvoCLv SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:04:12.145
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:05:21.359
+!MESSAGE Could not download javadoc for com.lowagie:itext:2.1.7.js8
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.lowagie:itext:jar:javadoc:2.1.7.js8
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.lowagie:itext:jar:javadoc:2.1.7.js8
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:05:21.359
+!MESSAGE Could not resolve artifact com.lowagie:itext:jar:javadoc:2.1.7.js8
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:05:21.359
+!MESSAGE Missing com.lowagie:itext:jar:javadoc:2.1.7.js8
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:05:22.112
+!MESSAGE Could not download javadoc for com.amazonaws:aws-java-sdk:1.11.670
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.amazonaws:aws-java-sdk:jar:javadoc:1.11.670
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.amazonaws:aws-java-sdk:jar:javadoc:1.11.670
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:05:22.113
+!MESSAGE Could not resolve artifact com.amazonaws:aws-java-sdk:jar:javadoc:1.11.670
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:05:22.113
+!MESSAGE Missing com.amazonaws:aws-java-sdk:jar:javadoc:1.11.670
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:05:23.872
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:05:23.896
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:05:23.914
+!MESSAGE buffering callback sts4.classpath.BLSvoCLv algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:05:23.921
+!MESSAGE executing callback sts4.classpath.BLSvoCLv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:05:23.941
+!MESSAGE executing callback sts4.classpath.BLSvoCLv SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2020-12-17 10:12:42.880
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-17 10:12:42.880
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c07798b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9b79784,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 4 0 2020-12-17 10:14:27.959
+!MESSAGE DebugException: Launch configuration algamoney-api - AlgamoneyApiApplication at file:/C:/Users/Leonardo/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/AlgaWorks-AlgaMoney/.metadata/.plugins/org.eclipse.debug.core/.launches/algamoney-api%20-%20AlgamoneyApiApplication.launch does not exist.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration algamoney-api - AlgamoneyApiApplication at file:/C:/Users/Leonardo/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/AlgaWorks-AlgaMoney/.metadata/.plugins/org.eclipse.debug.core/.launches/algamoney-api%20-%20AlgamoneyApiApplication.launch does not exist.
+	at org.eclipse.debug.internal.core.LaunchManager.createDebugException(LaunchManager.java:887)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1371)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:488)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:439)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProjectName(AbstractBootLaunchConfigurationDelegate.java:316)
+	at org.springframework.ide.eclipse.boot.launch.AbstractBootLaunchConfigurationDelegate.getProject(AbstractBootLaunchConfigurationDelegate.java:301)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getProject(LaunchConfDashElement.java:68)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getParent(LaunchConfDashElement.java:89)
+	at org.springframework.ide.eclipse.boot.dash.model.LaunchConfDashElement.getParent(LaunchConfDashElement.java:1)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashTreeContentProvider.getParent(BootDashTreeContentProvider.java:68)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1757)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:566)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1685)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2564)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3027)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1407)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1484)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:538)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashUnifiedTreeSection$3$1.run(BootDashUnifiedTreeSection.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2020-12-17 10:14:27.960
+!MESSAGE Launch configuration algamoney-api - AlgamoneyApiApplication at file:/C:/Users/Leonardo/Documents/workspace-spring-tool-suite-4-4.9.0.RELEASE/AlgaWorks-AlgaMoney/.metadata/.plugins/org.eclipse.debug.core/.launches/algamoney-api%20-%20AlgamoneyApiApplication.launch does not exist.
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:14:50.976
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:14:51.357
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.ui 2 2 2020-12-17 10:14:52.393
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:14:59.629
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:14:59.648
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:14:59.662
+!MESSAGE buffering callback sts4.classpath.BLSvoCLv algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:14:59.668
+!MESSAGE executing callback sts4.classpath.BLSvoCLv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:14:59.700
+!MESSAGE executing callback sts4.classpath.BLSvoCLv SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:15:00.342
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:15:00.360
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:15:00.383
+!MESSAGE buffering callback sts4.classpath.BLSvoCLv algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:15:00.391
+!MESSAGE executing callback sts4.classpath.BLSvoCLv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:15:00.440
+!MESSAGE executing callback sts4.classpath.BLSvoCLv SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:15:01.320
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:15:01.864
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:15:21.630
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:15:21.865
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:15:28.850
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:15:28.865
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:15:28.878
+!MESSAGE buffering callback sts4.classpath.BLSvoCLv algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:15:28.883
+!MESSAGE executing callback sts4.classpath.BLSvoCLv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:15:28.897
+!MESSAGE executing callback sts4.classpath.BLSvoCLv SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:15:29.685
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:15:30.122
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:16:55.763
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:16:55.782
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:16:55.795
+!MESSAGE buffering callback sts4.classpath.BLSvoCLv algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:16:55.801
+!MESSAGE executing callback sts4.classpath.BLSvoCLv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:16:55.816
+!MESSAGE executing callback sts4.classpath.BLSvoCLv SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:16:56.942
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:16:57.170
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:16:59.237
+!MESSAGE Could not download sources for com.lowagie:itext:2.1.7.js7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.lowagie:itext:jar:sources:2.1.7.js7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.lowagie:itext:jar:sources:2.1.7.js7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:16:59.237
+!MESSAGE Could not resolve artifact com.lowagie:itext:jar:sources:2.1.7.js7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:16:59.237
+!MESSAGE Missing com.lowagie:itext:jar:sources:2.1.7.js7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:01.503
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:01.519
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:01.532
+!MESSAGE buffering callback sts4.classpath.BLSvoCLv algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:01.538
+!MESSAGE executing callback sts4.classpath.BLSvoCLv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:01.552
+!MESSAGE executing callback sts4.classpath.BLSvoCLv SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:17:03.266
+!MESSAGE Could not download javadoc for com.lowagie:itext:2.1.7.js7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.lowagie:itext:jar:javadoc:2.1.7.js7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.lowagie:itext:jar:javadoc:2.1.7.js7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:17:03.266
+!MESSAGE Could not resolve artifact com.lowagie:itext:jar:javadoc:2.1.7.js7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:17:03.266
+!MESSAGE Missing com.lowagie:itext:jar:javadoc:2.1.7.js7
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:17:14.189
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:17:14.401
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:22.975
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:22.993
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:23.009
+!MESSAGE buffering callback sts4.classpath.BLSvoCLv algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:23.016
+!MESSAGE executing callback sts4.classpath.BLSvoCLv 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:23.030
+!MESSAGE executing callback sts4.classpath.BLSvoCLv SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:17:23.843
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:17:24.484
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:38.050
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BLSvoCLv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:38.056
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BLSvoCLv
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:38.063
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:17:38.069
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BLSvoCLv => OK
+!SESSION 2020-12-17 10:17:51.871 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2020-12-17 10:18:11.304
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-17 10:18:11.304
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14983265,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35e357b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:15.117
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:15.125
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@728c3a0e[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:15.132
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:15.155
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.469
+!MESSAGE Boot LS startup time from start to initialized: 2329ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.544
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BivyaoRKisBatched = true
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-17 10:18:17.550
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Leonardo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.555
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.563
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.570
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.576
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.583
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BivyaoRK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.605
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.626
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.636
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:17.660
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:18.131
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:18.146
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:18.159
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 7
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:18.164
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:18:18.172
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-12-17 10:22:59.932
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:23:09.338
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:23:09.392
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:23:09.407
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:23:09.413
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:23:09.442
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:23:32.740
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:23:32.750
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:23:32.764
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:23:32.770
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:23:33.746
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:23:34.492
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:23:35.209
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:23:54.490
+!MESSAGE Could not download sources for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:23:54.490
+!MESSAGE Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:23:54.490
+!MESSAGE Missing antlr:antlr:jar:sources:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:25:03.612
+!MESSAGE Could not download sources for com.lowagie:itext:2.1.7.js7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.lowagie:itext:jar:sources:2.1.7.js7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.lowagie:itext:jar:sources:2.1.7.js7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:25:03.612
+!MESSAGE Could not resolve artifact com.lowagie:itext:jar:sources:2.1.7.js7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:25:03.612
+!MESSAGE Missing com.lowagie:itext:jar:sources:2.1.7.js7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:25:40.171
+!MESSAGE Could not download sources for com.amazonaws:aws-java-sdk:1.11.670
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.amazonaws:aws-java-sdk:jar:sources:1.11.670
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.amazonaws:aws-java-sdk:jar:sources:1.11.670
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:25:40.171
+!MESSAGE Could not resolve artifact com.amazonaws:aws-java-sdk:jar:sources:1.11.670
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:25:40.171
+!MESSAGE Missing com.amazonaws:aws-java-sdk:jar:sources:1.11.670
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:30:12.379
+!MESSAGE Could not download javadoc for antlr:antlr:2.7.7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:30:12.379
+!MESSAGE Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:30:12.379
+!MESSAGE Missing antlr:antlr:jar:javadoc:2.7.7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:30:13.233
+!MESSAGE Could not download javadoc for com.lowagie:itext:2.1.7.js7
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.lowagie:itext:jar:javadoc:2.1.7.js7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.lowagie:itext:jar:javadoc:2.1.7.js7
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:30:13.233
+!MESSAGE Could not resolve artifact com.lowagie:itext:jar:javadoc:2.1.7.js7
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:30:13.233
+!MESSAGE Missing com.lowagie:itext:jar:javadoc:2.1.7.js7
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-12-17 10:30:14.092
+!MESSAGE Could not download javadoc for com.amazonaws:aws-java-sdk:1.11.670
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.amazonaws:aws-java-sdk:jar:javadoc:1.11.670
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.amazonaws:aws-java-sdk:jar:javadoc:1.11.670
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-12-17 10:30:14.092
+!MESSAGE Could not resolve artifact com.amazonaws:aws-java-sdk:jar:javadoc:1.11.670
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-17 10:30:14.092
+!MESSAGE Missing com.amazonaws:aws-java-sdk:jar:javadoc:1.11.670
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:30:15.789
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:30:15.807
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:30:15.821
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:30:15.828
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:30:15.843
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:31:27.942
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.eclipse.core.resources 4 2 2020-12-17 10:31:27.951
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URI.toString()" because the return value of "org.eclipse.core.resources.IProject.getLocationURI()" is null
+	at org.eclipse.lsp4e.LSPEclipseUtils.toWorkspaceFolder(LSPEclipseUtils.java:790)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:497)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.lsp4e.LanguageServerWrapper.toWorkspaceFolderEvent(LanguageServerWrapper.java:491)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:169)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:575)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:31:27.958
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:31:27.965
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:31:27.976
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 4 2020-12-17 10:31:27.996
+!MESSAGE Unable to create part
+!STACK 1
+org.eclipse.ui.PartInitException: Cannot determine URI for '/algamoney-api/src/main/java/com/example/algamoney/api/storage/S3.java'.
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3203)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3214)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:104)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1382)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1547)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1499)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1469)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1593)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4277)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.ltk.ui.refactoring.resource.DeleteResourcesWizard$DeleteResourcesRefactoringConfigurationPage.performFinish(DeleteResourcesWizard.java:284)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.ltk.internal.ui.refactoring.actions.DeleteResourcesHandler.execute(DeleteResourcesHandler.java:44)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommandInContext(LegacyHandlerService.java:440)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.runCommand(LTKLauncher.java:140)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.openDeleteWizard(LTKLauncher.java:57)
+	at org.eclipse.ui.actions.DeleteResourceAction.run(DeleteResourceAction.java:452)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.DeleteAction.run(DeleteAction.java:196)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/algamoney-api/src/main/java/com/example/algamoney/api/storage/S3.java'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.createFileInfo(CompilationUnitDocumentProvider.java:1018)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.connect(CompilationUnitDocumentProvider.java:1284)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4182)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1479)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.internalDoSetInput(JavaEditor.java:2544)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.doSetInput(JavaEditor.java:2517)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSetInput(CompilationUnitEditor.java:1412)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3172)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2353)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2351)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3189)
+	... 128 more
+!SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2020-12-17 10:31:27.997
+!MESSAGE Cannot determine URI for '/algamoney-api/src/main/java/com/example/algamoney/api/storage/S3.java'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot determine URI for '/algamoney-api/src/main/java/com/example/algamoney/api/storage/S3.java'.
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.create(ResourceFileBuffer.java:239)
+	at org.eclipse.core.internal.filebuffers.TextFileBufferManager.connect(TextFileBufferManager.java:115)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.createFileInfo(TextFileDocumentProvider.java:563)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.createFileInfo(CompilationUnitDocumentProvider.java:1018)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.connect(TextFileDocumentProvider.java:481)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.connect(CompilationUnitDocumentProvider.java:1284)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4182)
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:262)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1479)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.internalDoSetInput(JavaEditor.java:2544)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.doSetInput(JavaEditor.java:2517)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSetInput(CompilationUnitEditor.java:1412)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$1(AbstractTextEditor.java:3172)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2353)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2351)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3189)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3214)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:353)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:344)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:999)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:964)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:140)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:405)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:332)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:999)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.lambda$0(PartServiceImpl.java:104)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElementGen(ElementContainerImpl.java:170)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:188)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1382)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1547)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1499)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1469)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1593)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.lambda$3(AbstractTextEditor.java:4277)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:324)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:148)
+	at org.eclipse.ltk.ui.refactoring.resource.DeleteResourcesWizard$DeleteResourcesRefactoringConfigurationPage.performFinish(DeleteResourcesWizard.java:284)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:450)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.lambda$0(RefactoringWizardOpenOperation.java:190)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:209)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:126)
+	at org.eclipse.ltk.internal.ui.refactoring.actions.DeleteResourcesHandler.execute(DeleteResourcesHandler.java:44)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommandInContext(LegacyHandlerService.java:440)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.runCommand(LTKLauncher.java:140)
+	at org.eclipse.ui.internal.ide.actions.LTKLauncher.openDeleteWizard(LTKLauncher.java:57)
+	at org.eclipse.ui.actions.DeleteResourceAction.run(DeleteResourceAction.java:452)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.DeleteAction.run(DeleteAction.java:196)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+!SUBENTRY 2 org.eclipse.core.filebuffers 4 0 2020-12-17 10:31:27.997
+!MESSAGE Cannot determine URI for '/algamoney-api/src/main/java/com/example/algamoney/api/storage/S3.java'.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:31:36.851
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:31:36.869
+!MESSAGE classpath=323 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:31:36.883
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 323
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:31:36.889
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:31:36.908
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:31:38.105
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:31:38.701
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:32:15.104
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:32:15.121
+!MESSAGE classpath=339 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:32:15.135
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 339
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:32:15.141
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:32:15.153
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:32:15.525
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:32:15.822
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jface 2 0 2020-12-17 10:32:40.147
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-17 10:32:40.147
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51aa1c13,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ca28e44,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:34:02.336
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:34:02.352
+!MESSAGE classpath=339 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:34:02.366
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 339
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:34:02.373
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:34:02.387
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:34:03.644
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:34:03.898
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:34:05.461
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:34:05.481
+!MESSAGE classpath=339 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:34:05.495
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 339
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:34:05.500
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:34:05.513
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:35:25.359
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:35:25.376
+!MESSAGE classpath=339 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:35:25.390
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 339
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:35:25.397
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:35:25.422
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:35:26.629
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:35:26.876
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:39:15.913
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:39:15.929
+!MESSAGE classpath=339 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:39:15.944
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 339
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:39:15.950
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:39:15.964
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:39:17.139
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 10:39:17.416
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:39:19.056
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:39:19.071
+!MESSAGE classpath=339 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:39:19.084
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 339
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:39:19.090
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 10:39:19.101
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 11:08:16.570
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 11:08:17.005
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 11:08:56.401
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 11:08:56.417
+!MESSAGE classpath=339 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 11:08:56.433
+!MESSAGE buffering callback sts4.classpath.BivyaoRK algamoney-api false 339
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 11:08:56.438
+!MESSAGE executing callback sts4.classpath.BivyaoRK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-17 11:08:56.453
+!MESSAGE executing callback sts4.classpath.BivyaoRK SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 11:08:57.561
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-12-17 11:08:57.824
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
