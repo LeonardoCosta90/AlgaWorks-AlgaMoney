@@ -56,19 +56,20 @@
 		<dependency>
 		    <groupId>net.sf.jasperreports</groupId>
 		    <artifactId>jasperreports</artifactId>
-		    <version>6.15.0</version>
+		    <version>6.10.0</version>
 		</dependency>
 		<!-- mysql -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<scope>runtime</scope>
+			<version>5.1.47</version>
 		</dependency>
 		
 		<!-- Migracoes - Flyway -->
 		<dependency>
 			<groupId>org.flywaydb</groupId>
 			<artifactId>flyway-core</artifactId>
+			<version>5.2.4</version>
 		</dependency>
 		
 		<!-- Hibernate Java 8 Support -->
@@ -97,6 +98,7 @@
 		<dependency>
 			<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
+			<version>2.3.5.RELEASE</version>
 		</dependency>
 		
 		<dependency>
